@@ -113,6 +113,8 @@ class ViewController: UIViewController {
 
         // Show the "Select all" button 
         GBHFacebookImagePicker.pickerConfig.allowAllSelection = true
+        
+        GBHFacebookImagePicker.pickerConfig.uiConfig.albumCoverSize = .album
     }
 
     // MARK: - Action
