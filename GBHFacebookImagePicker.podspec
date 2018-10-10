@@ -7,13 +7,13 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Florian Gabach' => 'florian.gabach@gmail.com' }
     s.source           = { :git => 'https://github.com/floriangbh/FacebookImagePicker.git', :tag => s.version.to_s }
-    s.ios.deployment_target = '9.0'
+    s.ios.deployment_target = '10.0'
     s.source_files = 'GBHFacebookImagePicker/Classes/**/*'
     s.resource_bundles = {
         'GBHFacebookImagePicker' => [
             'Images/*.{png}'
         ]
     }
-    s.dependency 'FBSDKCoreKit', '~> 4.34.0'
-    s.dependency 'FBSDKLoginKit', '~> 4.34.0'
+    s.dependency 'FBSDKCoreKit', '~> 4.37.0'
+    s.dependency 'FBSDKLoginKit', '~> 4.37.0'
 end
